@@ -1,0 +1,41 @@
+.createBtn {
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  right: 0;
+  margin: 0 5% 30px 0 !important;
+  box-shadow: 0 2px 8px #bbb!important;
+  color: white !important;
+  background: tomato !important;
+}
+
+.editBtn {
+  color: white !important;
+  background: #271fd5 !important;
+}
+
+.createModalBtn {
+  background: tomato !important;
+  color: white !important;
+}
+
+.editModalBtn {
+  background: #271fd5 !important;
+  color: white !important;
+}
+
+.animate {
+  color: transparent !important;
+  animation: shimmer 2s infinite linear;
+  background: linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #eff1f3 36%);
+  background-size: 1000px 100%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}

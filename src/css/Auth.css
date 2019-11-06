@@ -1,0 +1,47 @@
+.errorNotif {
+  color: red;
+}
+
+.authButton {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 5%;
+  margin-top: 50px;
+}
+
+.authModalBtn {
+  background: #271FD5!important;
+  color: white!important;
+}
+
+@media only screen and (min-width: 1200px) {
+  .ui.modal {
+    width: 600px!important;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {  
+  .ui.modal {
+    width: 500px!important;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .ui.modal {
+    width: 70%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .App-header {
+    height: 8.5em;
+  }
+
+  .authButton {
+    margin-top: 2em;
+  }
+}
